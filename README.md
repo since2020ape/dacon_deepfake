@@ -2,7 +2,8 @@
 -  데이콘에서 주관하는 딥페이크 변조 영상 탐지 AI 경진대회의 Private 1위로 입상한 WeAreApe 팀의 코드를 아래와 같이 공유드립니다.
 (대회 링크: https://dacon.io/competitions/official/235655/overview/)
 
-## Version & Device
+## 환경세팅
+### version & device
 - Ubuntu 16.04(OS)
 - Python 3.7.8
 - Cuda 10.1
