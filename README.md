@@ -115,7 +115,7 @@
      - pretained model freeze : FaceForensics++ 논문 참고하여 Model freeze 진행 (2~5step, lr(0.001))
      - Data augmentation (pattern alpha blending & blind face):
             - 1. 노이즈를 표현하기 위해 임의의 패턴을 blending하여 학습에 활용하였지만 오히려 성능 저하 발생
-             - 2. best accuracy는 blind face를 이용하여 학습한 결과지만 평균적으로 큰 효과가 있지 않았음
+            - 2. best accuracy는 blind face를 이용하여 학습한 결과지만 평균적으로 큰 효과가 있지 않았음
 ![다운로드](https://user-images.githubusercontent.com/78020215/105841396-dc366a00-6017-11eb-82e5-a447e348eb34.png)
 
       - EfficientNetB5(380x380), EfficientNetB5(456x456) : batch size 16 or 12
