@@ -54,7 +54,7 @@
 
   - train.py 실행
 
-            sudo python3 train.py data/cropface resource resource
+        sudo python3 train.py data/cropface resource resource
 
   - 입력 parameter
   
