@@ -121,5 +121,3 @@
       - EfficientNetB5(380x380), EfficientNetB5(456x456) : batch size 16 or 12
       - triplet_loss alpha 값 변경 (0.2~1.5)
       - Lgbm
-
-감사합니다.
