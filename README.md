@@ -13,7 +13,7 @@
       sudo pip3 install -r requirements.txt
 
 ## 사용법
-### 1.inference 
+### inference - 추론
   - inference_dacon_data.py 실행
 
         sudo python3 inference_dacon_data.py test/leaderboard resource/sample_submission.csv resource/triplet_effB4_ep06_BS28.hdf5 resource/triplet_effB4_ep06_BS28.pkl
@@ -30,7 +30,9 @@
          ( 2번의 입력 .csv 경로에 ) *_out.csv 제출 파일 작성
 
 
-### 2.train
+### train - 학습
+
+#### crop face - 학습데이터 생성
 
   - crop_face_dacon.py 실행 ( 안면 이미지 생성)
 
@@ -48,9 +50,11 @@
           Test 데이터 : validation
 
 
-### train.py 실행
+#### train - 학습 실행
 
-    sudo python3 train.py data/cropface resource resource
+  - train.py 실행
+
+            sudo python3 train.py data/cropface resource resource
 
   - 입력 parameter
   
