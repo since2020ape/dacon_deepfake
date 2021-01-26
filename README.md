@@ -24,21 +24,19 @@
 ### Data Augmentation
 > Kaggle – Deepfake Detection Challenge Private 1위 팀 내용 참고 (https://github.com/selimsef/dfdc_deepfake_challenge)
 <img src="https://user-images.githubusercontent.com/78020215/105839801-59acab00-6015-11eb-923b-b792518302dc.png" width="80%" height="80%">
+
 ### Vector Embedding with CNN (Train)
       1. Network Model
             - Backbone : EfficientNetB4(380x380)
             - train - Load Imagenet pretrained model
-
-            x = Dropout (0.4) (base_network.output)
-            x = Dense (512, kernel_regularizer=l2_regularizer (regu_weight), activation=None) (x)
-            outputs = tf.nn.l2_normalize (x, 1, 1e-10)
-            
+                  x = Dropout (0.4) (base_network.output)
+                  x = Dense (512, kernel_regularizer=l2_regularizer (regu_weight), activation=None) (x)
+                  outputs = tf.nn.l2_normalize (x, 1, 1e-10)
       2. Loss
              - Facenet* : semi-hard triplet loss 
              - triplet selection은 진행하지 않음
              - alpha : 1.0
              > FaceNet: A Unified Embedding for Face Recognition and Clustering/2015/Florian Schroff 외 2명/Google Inc
-             
       3. Etc
             - Optimizer : SGD (lr=0.01) 사용
             - Batch_size : 4x12 
