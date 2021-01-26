@@ -17,13 +17,13 @@
 ## Inference Flow
 ![다운로드](https://user-images.githubusercontent.com/78020215/105839279-9926c780-6014-11eb-9e38-375e426a8291.png)
 
+
 ### Face detection with MTCNN
-![다운로드](https://user-images.githubusercontent.com/78020215/105839585-13574c00-6015-11eb-9779-e6746e597107.png)
+<img src="https://user-images.githubusercontent.com/78020215/105839585-13574c00-6015-11eb-9779-e6746e597107.png" width="80%" height="80%">
 
 ### Data Augmentation
 > Kaggle – Deepfake Detection Challenge Private 1위 팀 내용 참고 (https://github.com/selimsef/dfdc_deepfake_challenge)
-![다운로드](https://user-images.githubusercontent.com/78020215/105839801-59acab00-6015-11eb-923b-b792518302dc.png)
-
+<img src="https://user-images.githubusercontent.com/78020215/105839801-59acab00-6015-11eb-923b-b792518302dc.png" width="80%" height="80%">
 ### Vector Embedding with CNN (Train)
       1. Network Model
             - Backbone : EfficientNetB4(380x380)
@@ -45,7 +45,7 @@
             - 1.8k train      
 
 ### Classifier(SVM)
-![다운로드](https://user-images.githubusercontent.com/78020215/105840829-fde32180-6016-11eb-85fe-45c2f6d97e29.png)
+<img src="https://user-images.githubusercontent.com/78020215/105840829-fde32180-6016-11eb-85fe-45c2f6d97e29.png" width="50%" height="50%">
 
 ## 사용법
 ### inference - 추론
