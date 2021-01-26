@@ -1,5 +1,5 @@
 # 딥페이크 변조 영상 탐지 AI 경진대회 - WeAreApe
--  데이콘에서 주관하는 딥페이크 변조 영상 탐지 AI 경진대회의 Private 1위로 입상한 WeAreApe 팀의 코드를 아래와 같이 공유드립니다.
+-  데이콘에서 주관하는 딥페이크 변조 영상 탐지 AI 경진대회에서 입상한 WeAreApe 팀의 코드를 아래와 같이 공유드립니다.
 (대회 링크: https://dacon.io/competitions/official/235655/overview/)
 
 ## 환경세팅
